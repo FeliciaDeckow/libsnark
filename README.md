@@ -10,7 +10,7 @@ and is released under the MIT License (see the [LICENSE] file).
 
 Copyright (c) 2012-2017 SCIPR Lab and contributors (see [AUTHORS] file).
 
-For announcements and discussions, see the [libsnark mailing list](https://groups.google.com/forum/#!forum/libsnark).
+For announcements and discussions, see the [libsnark mailing list](https://groups.google.com/forum/ #forum/libsnark).
 
 --------------------------------------------------------------------------------
 [TOC]
@@ -132,7 +132,7 @@ The NP-complete language R1CS
 --------------------------------------------------------------------------------
 
 The ppzkSNARK supports proving/verifying membership in a specific NP-complete
-language: R1CS (*rank-1 constraint systems*). An instance of the language is
+language: R1CS ( rank-1 constraint systems*). An instance of the language is
 specified by a set of equations over a prime field F, and each equation looks like:
                    < A, (1,X) > * < B , (1,X) > = < C, (1,X) >
 where A,B,C are vectors over F, and X is a vector of variables.
@@ -670,3 +670,4 @@ References
 [LICENSE]: LICENSE (LICENSE file in top directory of libsnark distribution)
 
 [AUTHORS]: AUTHORS (AUTHORS file in top directory of libsnark distribution)
+ 
